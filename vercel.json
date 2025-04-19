@@ -1,0 +1,36 @@
+{
+    "routes":[
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/trending",
+            "dest": "/"
+        },
+        {
+            "src": "/popular",
+            "dest": "/"
+        },
+        {
+            "src": "/movie",
+            "dest": "/"
+        },
+        {
+            "src": "/tv",
+            "dest": "/"
+        },
+        {
+            "src": "/people",
+            "dest": "/"
+        },
+        {
+            "src": "/about",
+            "dest": "/"
+        },
+        {
+            "src": "/contact",
+            "dest": "/"
+        }
+    ]
+}
