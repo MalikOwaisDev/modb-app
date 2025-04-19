@@ -416,7 +416,7 @@ const TopNav = () => {
                   }}
                   className="absolute right-4 text-zinc-400 hover:text-white transition-colors"
                 >
-                  <i className="ri-close-circle-fill text-xl hover:text-[#00b1b3] transition-colors"></i>
+                  <i className="ri-close-circle-fill text-xl hover:text-[#00b1b3] hover:cursor-pointer transition-colors"></i>
                 </button>
               )}
 
@@ -499,7 +499,7 @@ const TopNav = () => {
                   setIsSearchExpanded(false);
                 }
               }}
-              className="text-zinc-400 hover:text-white transition-colors"
+              className="text-zinc-400 hover:text-white hover:cursor-pointer transition-colors"
             >
               <i className="ri-close-line"></i>
             </button>
