@@ -372,7 +372,7 @@ const Trending = () => {
 
         {/* Header Section */}
         <motion.div
-          className="sticky top-0 z-10 bg-zinc-900/80 backdrop-blur-md border-b border-zinc-800/50 px-3 sm:px-6 py-3 sm:py-4"
+          className="top-0 z-10 bg-zinc-900/80 backdrop-blur-md border-b border-zinc-800/50 px-3 sm:px-6 py-3 sm:py-4"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : -20 }}
           transition={{ duration: 0.4, ease: "easeOut" }}

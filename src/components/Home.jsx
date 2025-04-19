@@ -494,9 +494,7 @@ const Home = memo(() => {
         <div className="max-w-full relative z-10">
           {/* Floating TopNav with glassmorphism */}
           <div
-            className={`${
-              isMobile ? "w-[90%] pl-16" : "w-full"
-            } sticky top-0 z-50`}
+            className={`${isMobile ? "w-[90%] pl-16" : "w-full"} top-0 z-50`}
           >
             <TopNav />
           </div>

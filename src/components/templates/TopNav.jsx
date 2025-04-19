@@ -291,7 +291,7 @@ const TopNav = () => {
 
   return (
     <div
-      className="w-full backdrop-blur-md bg-zinc-900/40 border-b border-zinc-800/30 sticky top-0 z-50 transition-all duration-300"
+      className="w-full backdrop-blur-md bg-zinc-900/40 border-b border-zinc-800/30 top-0 z-50 transition-all duration-300"
       style={{
         boxShadow: "0 10px 30px -10px rgba(0, 0, 0, 0.3)",
       }}
