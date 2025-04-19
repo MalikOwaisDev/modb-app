@@ -781,7 +781,7 @@ const TvDetails = () => {
               <motion.button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className={`px-3 sm:px-6 py-2 sm:py-3 font-medium transition-colors relative whitespace-nowrap ${
+                className={`px-3 sm:px-6 py-2 sm:py-3 hover:cursor-pointer font-medium transition-colors relative whitespace-nowrap ${
                   activeTab === tab
                     ? "text-[#00b1b3]"
                     : "text-zinc-400 hover:text-white"
