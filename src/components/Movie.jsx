@@ -409,7 +409,7 @@ function Movie() {
             initial={{ opacity: 0 }}
             animate={{ opacity: isVisible ? 1 : 0 }}
             transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
-            className="relative z-10 px-3 sm:px-6 py-3 sm:py-4"
+            className="relative z-0 px-3 sm:px-6 py-3 sm:py-4"
           >
             <InfiniteScroll
               dataLength={movie.length}

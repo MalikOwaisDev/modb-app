@@ -126,7 +126,7 @@ const ParticlesBackground = memo(({ isMobile }) => {
   ).current;
 
   return (
-    <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
+    <div className="fixed inset-0 overflow-hidden pointer-events-none">
       {particles.map((particle) => (
         <div
           key={particle.id}
@@ -344,7 +344,7 @@ const Trending = () => {
       <main
         ref={mainRef}
         id="scrollableDiv"
-        className="h-screen overflow-y-auto overflow-x-hidden relative"
+        className="h-screen z-10 overflow-y-auto overflow-x-hidden relative"
         style={{
           width: mainWidth,
           marginLeft: isMobile ? "0" : mainMargin,
@@ -355,7 +355,7 @@ const Trending = () => {
         {/* Background ambient glow - only on desktop */}
         {!isMobile && !isTablet && (
           <div
-            className="fixed inset-0 pointer-events-none opacity-20 z-0"
+            className="fixed inset-0 pointer-events-none opacity-20"
             style={{
               background: `radial-gradient(circle at ${
                 50 + mousePosition.x * 20
@@ -514,7 +514,7 @@ const Trending = () => {
             </div>
           </div>
 
-          <div className="mt-3 sm:mt-4 z-10">
+          <div className="mt-3 sm:mt-4  z-[100] relative">
             <TopNav />
           </div>
         </motion.div>
@@ -527,7 +527,7 @@ const Trending = () => {
             mousePosition={mousePosition}
           />
         ) : trending.length > 0 ? (
-          <div className="px-3 sm:px-6 py-3 sm:py-4">
+          <div className="px-3 sm:px-6 py-3 sm:py-4 relative -z-10">
             <InfiniteScroll
               dataLength={trending.length}
               next={getTrending}

@@ -444,7 +444,7 @@ const TvDetails = () => {
 
         {/* Hero Section with Backdrop */}
         <div
-          className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] bg-cover bg-center bg-no-repeat overflow-hidden"
+          className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] bg-cover bg-center bg-no-repeat "
           style={{
             backgroundImage: info.details?.backdrop_path
               ? `url(https://image.tmdb.org/t/p/original/${info.details.backdrop_path})`

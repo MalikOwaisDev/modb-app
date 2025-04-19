@@ -329,7 +329,7 @@ const Cards = memo(({ data, title }) => {
   return (
     <div
       ref={gridRef}
-      className="w-full p-3 sm:p-6 bg-zinc-900 relative perspective"
+      className="w-full p-3 sm:p-6 z-0 bg-zinc-900 relative perspective"
       onMouseMove={handleMouseMove}
     >
       {/* Section title with 3D effect */}

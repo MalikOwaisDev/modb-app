@@ -374,7 +374,7 @@ const PeopleDetails = () => {
 
   return (
     <div
-      className="flex w-full min-h-screen bg-zinc-900 text-white overflow-hidden"
+      className="flex w-full min-h-screen bg-zinc-900 text-white "
       onMouseMove={handleMouseMove}
     >
       {/* SideNav - hidden on mobile */}
@@ -409,7 +409,7 @@ const PeopleDetails = () => {
         <ParticlesBackground isMobile={isMobile} />
 
         {/* Hero Section with Profile Image */}
-        <div className="relative w-full h-[25vh] sm:h-[30vh] md:h-[40vh] bg-cover bg-center bg-no-repeat overflow-hidden">
+        <div className="relative w-full h-[25vh] sm:h-[30vh] md:h-[40vh] bg-cover bg-center bg-no-repeat">
           {/* Backdrop fallback if no image */}
           {!info.details?.profile_path && (
             <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-zinc-900"></div>
@@ -720,7 +720,7 @@ const PeopleDetails = () => {
 
         {/* Main Content */}
         <motion.div
-          className="px-4 sm:px-8 md:px-12 py-6 sm:py-8 relative z-10"
+          className="px-4  sm:px-8 md:px-12 py-6 sm:py-8 relative z-0"
           initial={{ opacity: 0 }}
           animate={{ opacity: isVisible ? 1 : 0 }}
           transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
