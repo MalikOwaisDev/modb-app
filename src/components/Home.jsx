@@ -331,7 +331,6 @@ const Home = memo(() => {
         setTimeout(() => setIsVisible(true), 100);
       }, 500);
     } catch (error) {
-      console.log(error);
       setLoadingProgress(100);
       setTimeout(() => {
         setIsLoading(false);

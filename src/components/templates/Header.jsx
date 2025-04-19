@@ -126,7 +126,6 @@ const Header = memo(({ data }) => {
     return () => clearTimeout(timeout);
   }, [imageUrl, data.backdrop_path, data.profile_path]);
 
-  console.log(data);
   // Extract genres for display
   // const genres = data.genre_ids?.slice(0, 3) || [];
 

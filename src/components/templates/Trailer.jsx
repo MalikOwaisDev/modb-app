@@ -14,7 +14,6 @@ const Trailer = () => {
 
   const spPath = pathname.split("/")[1];
 
-  console.log(spPath);
   const details = useSelector((state) =>
     spPath === "movie" ? state.movie.info.details : state.tv.info.details
   );
@@ -24,7 +23,6 @@ const Trailer = () => {
       spPath === "movie" ? state.movie.info.videos : state.tv.info.videost;
     return videos?.key;
   });
-  console.log(key);
   // Set document title and handle animation timing
   useEffect(() => {
     const title = details
