@@ -163,7 +163,7 @@ const Trailer = () => {
           {/* Close button - repositioned for better visibility */}
           <button
             onClick={handleClose}
-            className="absolute top-4 right-4 z-30 flex items-center justify-center w-10 h-10 text-white bg-zinc-800/80 backdrop-blur-sm rounded-full hover:bg-[#00b1b3] transition-all duration-300 border border-zinc-700/30"
+            className="absolute top-4 right-4 z-30 flex hover:cursor-pointer items-center justify-center w-10 h-10 text-white bg-zinc-800/80 backdrop-blur-sm rounded-full hover:bg-[#00b1b3] transition-all duration-300 border border-zinc-700/30"
             aria-label="Close trailer"
             style={{
               boxShadow: "0 0 15px rgba(0, 0, 0, 0.3)",

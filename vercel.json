@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/trending", "destination": "/index.html" },
+    { "source": "/popular", "destination": "/index.html" },
+    { "source": "/movie", "destination": "/index.html" },
+    { "source": "/movie/details/:id", "destination": "/index.html" },
+    { "source": "/movie/details/:id/trailer", "destination": "/index.html" },
+    { "source": "/tv", "destination": "/index.html" },
+    { "source": "/tv/details/:id", "destination": "/index.html" },
+    { "source": "/tv/details/:id/trailer", "destination": "/index.html" },
+    { "source": "/people", "destination": "/index.html" },
+    { "source": "/person/details/:id", "destination": "/index.html" },
+    { "source": "/about", "destination": "/index.html" },
+    { "source": "/contact", "destination": "/index.html" }
+  ]
+}

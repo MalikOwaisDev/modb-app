@@ -1,5 +1,7 @@
 # 🎬 MODB - The Ultimate Movie Database Experience ✨
 
+## Public View: "https://modb-malik-owais-projects.vercel.app/"
+
 ## 🌟 Immerse Yourself in Entertainment
 
 MODB transforms the way you explore movies and TV shows with a stunning 3D interface that brings content to life.
