@@ -17,7 +17,6 @@ export const asyncLoadPeople = (id) => async (dispatch, state) => {
       images: images.data,
     };
     dispatch(loadPeople(theUltimateDetails));
-    console.log(theUltimateDetails);
   } catch (error) {
     console.log(error);
   }
